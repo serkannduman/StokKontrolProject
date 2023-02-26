@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokKontrolProject.Domain", "StokKontrolProject.Domain\StokKontrolProject.Domain.csproj", "{127F54ED-0383-4334-ACE4-91E696FACC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokKontrolProject.Repository", "StokKontrolProject.Repository\StokKontrolProject.Repository.csproj", "{F93FD6D3-C97E-4C0C-8FB4-B445E5612FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokKontrolProject.Service", "StokKontrolProject.Service\StokKontrolProject.Service.csproj", "{F8330582-5ED4-4BCA-ADDA-BFC513F15B61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8ACEB23C-9D95-4BEA-8455-2084ABC14984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokKontrolProject.API", "StokKontrolProject.API\StokKontrolProject.API.csproj", "{ED60C42C-9EAE-4753-9887-47ABD46F9533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokKontrolProject.WebUI", "StokKontrolProject.WebUI\StokKontrolProject.WebUI.csproj", "{8CCA0ACD-3E62-48FF-BFDC-B79975E64538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127F54ED-0383-4334-ACE4-91E696FACC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127F54ED-0383-4334-ACE4-91E696FACC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127F54ED-0383-4334-ACE4-91E696FACC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127F54ED-0383-4334-ACE4-91E696FACC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93FD6D3-C97E-4C0C-8FB4-B445E5612FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93FD6D3-C97E-4C0C-8FB4-B445E5612FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93FD6D3-C97E-4C0C-8FB4-B445E5612FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93FD6D3-C97E-4C0C-8FB4-B445E5612FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8330582-5ED4-4BCA-ADDA-BFC513F15B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8330582-5ED4-4BCA-ADDA-BFC513F15B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8330582-5ED4-4BCA-ADDA-BFC513F15B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8330582-5ED4-4BCA-ADDA-BFC513F15B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED60C42C-9EAE-4753-9887-47ABD46F9533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED60C42C-9EAE-4753-9887-47ABD46F9533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED60C42C-9EAE-4753-9887-47ABD46F9533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED60C42C-9EAE-4753-9887-47ABD46F9533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCA0ACD-3E62-48FF-BFDC-B79975E64538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCA0ACD-3E62-48FF-BFDC-B79975E64538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCA0ACD-3E62-48FF-BFDC-B79975E64538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCA0ACD-3E62-48FF-BFDC-B79975E64538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED60C42C-9EAE-4753-9887-47ABD46F9533} = {8ACEB23C-9D95-4BEA-8455-2084ABC14984}
+		{8CCA0ACD-3E62-48FF-BFDC-B79975E64538} = {8ACEB23C-9D95-4BEA-8455-2084ABC14984}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBA645A7-F2C0-4B69-84D5-E630CD1BF013}
+	EndGlobalSection
+EndGlobal
